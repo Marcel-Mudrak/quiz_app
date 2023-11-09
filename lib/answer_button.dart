@@ -26,7 +26,7 @@ class AnswerButton extends StatelessWidget {
           horizontal: 40,
         ),
       ),
-      child: StyledText.white(
+      child: StyledText.whiteLeft(
         answerText,
         14,
       ),
