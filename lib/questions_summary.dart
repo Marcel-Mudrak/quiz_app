@@ -38,6 +38,7 @@ class QuestionsSummary extends StatelessWidget {
           children: summaryData.map(
             (data) {
               return Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   CircleAvatar(
                     radius: 17,
@@ -49,7 +50,9 @@ class QuestionsSummary extends StatelessWidget {
                   Expanded(
                     child: Container(
                       alignment: Alignment.centerLeft,
-                      margin: const EdgeInsets.only(left: 10),
+                      margin: const EdgeInsets.only(
+                        left: 10,
+                      ),
                       child: Column(
                         children: [
                           StyledText.whiteLeft(

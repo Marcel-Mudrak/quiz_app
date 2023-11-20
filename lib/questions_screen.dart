@@ -56,17 +56,6 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
           const SizedBox(
             height: 50,
           ),
-          ElevatedButton.icon(
-            onPressed: () {},
-            style: ElevatedButton.styleFrom(
-              foregroundColor: const Color.fromARGB(255, 252, 252, 255),
-              textStyle: const TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            icon: const Icon(Icons.home),
-            label: const StyledText.white('Go Home', 20),
-          ),
         ],
       ),
     );
